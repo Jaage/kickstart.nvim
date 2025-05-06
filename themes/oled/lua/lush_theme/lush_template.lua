@@ -46,7 +46,6 @@ local lush = require 'lush'
 local hsl = lush.hsl
 
 -- Color Variables (cvs)
-local purple = hsl(270, 50, 50)
 
 -- LSP/Linters mistakenly show `undefined global` errors in the spec, they may
 -- support an annotation like the following. Consult your server documentation.
