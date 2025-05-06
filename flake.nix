@@ -94,8 +94,9 @@
       # this includes LSPs
       lspsAndRuntimeDeps = {
         general = with pkgs; [
-          ripgrep
           fd
+          ripgrep
+          zig
         ];
       };
 
